@@ -1,4 +1,7 @@
 # HttpClientFactory-NetCore
+Http istekleri yapmamızı sağlan HttpClient(.net 4.5 ile geldi) sınıfının instance'ını oluşturmak için kullanılan sınıftır.
+Dependency Injection kullanarak HttpClientFactory ile HttpClient elde etme yöntemidir.Sadece HttpClient kullanım durumunda her yeni bir instance uygulama için maliyet ve uygulamada kullanılacak socketlerin tüketilmesi demektir. HttpClientFactory ile HttpClient instance kontrolünü yapıp hem maliyet hemde socket yönünden tasarruf sağlıyor.
+
 
 1.İşlem | 
 ------------ 
